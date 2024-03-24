@@ -10,7 +10,7 @@
   >
     <div slot="progress-bar"></div>
   </model-viewer>
-  <div class="w-full border-t-2 pt-2">
+  <div class="w-full border-t-2 pt-2" v-if="animations.length > 0">
     <n-radio-group v-model:value="animation">
       <n-space>
         <n-radio v-for="item in animations" :key="item" :value="item">
