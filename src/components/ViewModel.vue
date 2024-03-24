@@ -1,7 +1,7 @@
 <template>
   <model-viewer
     ref="modelViewer"
-    :src="`${$route.params.model}.glb`"
+    :src="`../assets/${$route.params.model}.glb`"
     camera-controls
     shadow-intensity="1"
     autoplay
