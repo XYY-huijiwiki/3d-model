@@ -16,4 +16,5 @@ export default defineConfig({
     }),
   ],
   base: "/3d-model/",
+  assetsInclude: ["**/*.glb"],
 });
