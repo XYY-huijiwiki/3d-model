@@ -42,7 +42,6 @@ watch(
     modelViewer.value?.addEventListener("load", () => {
       animations.value = modelViewer.value?.availableAnimations || [];
       loading.value = false;
-      console.log(animations.value);
     });
   },
   { once: true }
