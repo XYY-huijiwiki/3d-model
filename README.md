@@ -4,10 +4,10 @@ Welcome to the 3D Model repository dedicated to archiving a collection of 3D mod
 
 ## Preview and Files
 
-| Preview                                     | File                      | Files (Original) | Source        |
-| ------------------------------------------- | ------------------------- | ---------------- | ------------- |
-| [v1](//xyy-huijiwiki.github.io/3d-model/v1) | [v1.glb](./public/v1.glb) | [v1](./v1/)      | Wechat Applet |
-| [v2](//xyy-huijiwiki.github.io/3d-model/v2) | [v2.glb](./public/v2.glb) | [v2](./v2/)      | Wechat Applet |
+| Preview                                               | File                                | Files (Original)      | Source        |
+| ----------------------------------------------------- | ----------------------------------- | --------------------- | ------------- |
+| [model_1](//xyy-huijiwiki.github.io/3d-model/model_1) | [model_1.glb](./public/model_1.glb) | [model_1](./model_1/) | Mini Programm |
+| [model_2](//xyy-huijiwiki.github.io/3d-model/model_2) | [model_2.glb](./public/model_2.glb) | [model_2](./model_2/) | Mini Programm |
 
 ## Tips for Interaction
 
