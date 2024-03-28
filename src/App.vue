@@ -20,5 +20,3 @@ const { loading } = storeToRefs(usePiniaStore());
     </n-spin>
   </n-config-provider>
 </template>
-
-<style scoped></style>

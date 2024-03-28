@@ -7,11 +7,15 @@
   >
     <template #footer>
       <n-space justify="center">
-        <n-button tag="a" type="primary" class="bg-[var(--n-color)]" href="/v1">
-          Model 1
-        </n-button>
-        <n-button tag="a" type="primary" class="bg-[var(--n-color)]" href="/v2">
-          Model 2
+        <n-button
+          v-for="model in modelList"
+          tag="a"
+          type="primary"
+          class="bg-[var(--n-color)]"
+          :href="`./${model}`"
+          :key="model"
+        >
+          {{ model }}
         </n-button>
         <n-button
           tag="a"
@@ -34,9 +38,14 @@ import { storeToRefs } from "pinia";
 import { NResult, NButton, NSpace } from "naive-ui";
 
 const { loading } = storeToRefs(usePiniaStore());
+
 onMounted(() => {
   loading.value = false;
 });
-</script>
 
-<style scoped></style>
+const modelList = Object.keys(import.meta.glob("../../public/*.glb")).map(
+  (key) => {
+    return key.replace("../../public/", "").replace(".glb", "");
+  }
+);
+</script>
