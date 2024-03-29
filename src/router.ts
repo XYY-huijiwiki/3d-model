@@ -7,7 +7,7 @@ import { inject } from "vue";
 const modelList = Object.keys(import.meta.glob("../public/*.glb")).map(
   (key) => {
     return key.replace("../public/", "").replace(".glb", "");
-  }
+  },
 );
 
 const NotFound = () => import("./components/NotFound.vue");

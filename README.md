@@ -8,10 +8,3 @@ Welcome to the 3D Model repository dedicated to archiving a collection of 3D mod
 | ----------------------------------------------------- | ----------------------------------- | --------------------- | ------------- |
 | [model_1](//xyy-huijiwiki.github.io/3d-model/model_1) | [model_1.glb](./public/model_1.glb) | [model_1](./model_1/) | Mini Programm |
 | [model_2](//xyy-huijiwiki.github.io/3d-model/model_2) | [model_2.glb](./public/model_2.glb) | [model_2](./model_2/) | Mini Programm |
-
-## Tips for Interaction
-
-- Left-click on the model to center it on the screen.
-- Left-drag to rotate the model.
-- Right-drag to move the model.
-- Use the scroll wheel to zoom in/out.

@@ -44,7 +44,7 @@ watch(
       loading.value = false;
     });
   },
-  { once: true }
+  { once: true },
 );
 </script>
 
